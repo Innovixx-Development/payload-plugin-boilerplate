@@ -75,7 +75,7 @@ To actively develop or debug this plugin you can either work directly within the
    This repo includes a fully working, self-seeding instance of Payload that installs the plugin directly from the source code. This is the easiest way to get started. To spin up this demo, follow these steps:
 
    1. First clone the repo
-   1. Then, `cd YOUR_PLUGIN_REPO && yarn && cd demo && yarn && yarn dev`
+   1. Then, `cd YOUR_PLUGIN_REPO && yarn && cd demo && yarn && yarn cleanDev`
    1. Now open `http://localhost:3000/admin` in your browser
    1. Enter username `admin@innovixx.co.uk` and password `pa$$w0rd!`
 
