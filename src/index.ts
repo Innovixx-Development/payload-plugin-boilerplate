@@ -5,5 +5,5 @@ import type { PluginConfig } from './types'
 
 export default (pluginConfig: PluginConfig) =>
   (config: Config): Config => {
-    return deepmerge(config, pluginConfig.overwrites || {})
+    return deepmerge(config, pluginConfig.overwrites || {}) as Config
   }
