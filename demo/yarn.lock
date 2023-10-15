@@ -3866,10 +3866,10 @@ graphql-type-json@0.3.2:
   resolved "https://registry.yarnpkg.com/graphql-type-json/-/graphql-type-json-0.3.2.tgz#f53a851dbfe07bd1c8157d24150064baab41e115"
   integrity sha512-J+vjof74oMlCWXSvt0DOf2APEdZOCdubEvGDUAlqH//VBYcOYsGgRW7Xzorr44LvkjiuvecWc8fChxuZZbChtg==
 
-graphql@16.7.1:
-  version "16.7.1"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.7.1.tgz#11475b74a7bff2aefd4691df52a0eca0abd9b642"
-  integrity sha512-DRYR9tf+UGU0KOsMcKAlXeFfX89UiiIZ0dRU3mR0yJfu6OjZqUcp68NnFLnqQU5RexygFoDy1EW+ccOYcPfmHg==
+graphql@16.8.1:
+  version "16.8.1"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.8.1.tgz#1930a965bef1170603702acdb68aedd3f3cf6f07"
+  integrity sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==
 
 gzip-size@^6.0.0:
   version "6.0.0"
@@ -5278,10 +5278,10 @@ pause@0.0.1:
   resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
   integrity sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg==
 
-payload@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/payload/-/payload-2.0.4.tgz#e659f69d342789eab18dfe6d675218aad3796834"
-  integrity sha512-Eh75yw2xyDdir4Bfk3Gy6laJ4Q+FFvWkkRgGwJ1oDC60V6ztqMFLbejSdXNxLlfj800GYa9LwnXlFjUDV+2pmQ==
+payload@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/payload/-/payload-2.0.6.tgz#27ce75b9139d6e5281abaa6788f1871069a13060"
+  integrity sha512-4aR7zFqkcU6sAmqzxHv4a5kp/az3k/z5NzAl5iR33nBh3QngxpD4v32zgyo7rvLWBXWki4plij9aZoOr8NZTqw==
   dependencies:
     "@date-io/date-fns" "2.16.0"
     "@dnd-kit/core" "6.0.8"
@@ -5312,7 +5312,7 @@ payload@^2.0.4:
     flatley "5.2.0"
     fs-extra "10.1.0"
     get-tsconfig "4.6.2"
-    graphql "16.7.1"
+    graphql "16.8.1"
     graphql-http "1.21.0"
     graphql-playground-middleware-express "1.7.23"
     graphql-query-complexity "0.12.0"
@@ -6220,11 +6220,6 @@ react-i18next@11.18.6:
   dependencies:
     "@babel/runtime" "^7.14.5"
     html-parse-stringify "^3.0.1"
-
-react-icons@^4.10.1:
-  version "4.10.1"
-  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.10.1.tgz#3f3b5eec1f63c1796f6a26174a1091ca6437a500"
-  integrity sha512-/ngzDP/77tlCfqthiiGNZeYFACw85fUjZtLbedmJ5DTlNDIwETxhwBzdOJ21zj4iJdvc0J3y7yOsX3PpxAJzrw==
 
 react-image-crop@10.1.8:
   version "10.1.8"

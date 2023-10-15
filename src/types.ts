@@ -1,6 +1,4 @@
+import type { Config } from 'payload/config'
 export interface PluginConfig {
-  overwrites?: {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    [key: string]: any
-  }
+  overwrites?: Partial<Config>
 }
