@@ -4,6 +4,8 @@ import path from 'path'
 import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
 
+import plugin from '../../dist'
+
 import Media from './collections/Media'
 import Pages from './collections/Pages'
 import Posts from './collections/Posts'
@@ -37,4 +39,16 @@ export default buildConfig({
   typescript: {
     outputFile: path.resolve(dirname, 'lib/types.ts'),
   },
+  plugins: [
+    plugin({
+      overwrites: {
+        admin: {
+          autoLogin: {
+            email: 'admin@innovixx.co.uk',
+            password: 'Pa$$w0rd!',
+          },
+        },
+      },
+    }),
+  ]
 })
